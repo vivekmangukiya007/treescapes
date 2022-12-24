@@ -1,0 +1,93 @@
+* {
+  padding: 0% !important;
+  margin: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* header section */
+
+/* -- -- -- -- --- --- navbar section --- --- -- -- -- --  */
+header{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+}
+.background-color {
+  background-color: #141414;
+}
+.navbar {
+  padding: 0%;
+  background-color: #141414;
+}
+
+.navbar-brand {
+  padding: 50px 30px !important;
+  border-radius: 0px 0px 20px 20px;
+  margin-left: 46px;
+  background-color: #141414;
+}
+
+.navbar-brand .logo {
+  width: 80px;
+}
+
+.navbar-nav {
+  padding-left: 47px !important;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px !important;
+}
+.nav-item:hover {
+  transition: 1s all ease-in;
+  border-bottom: 2px white solid;
+}
+.active {
+  color: white !important;
+}
+.nav-link {
+  color: #b3b4b3;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: white;
+  transition: 0.5s all;
+}
+.contactus-bg {
+  background-color: #52a94a;
+}
+.contactus-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px !important;
+  color: white;
+}
+.contactus-link .nav-link {
+  padding: 20px 0 !important;
+  align-items: center;
+}
+.nav-icons i {
+  padding: 15px !important;
+  color: white;
+}
+.nav-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px !important;
+  background-color: #222222;
+}
+/* -----------banner section------------------- */
+.banner-section{
+  position: relative;
+}
+.banner-section .banner-home{
+  width: 100%;
+
+}
