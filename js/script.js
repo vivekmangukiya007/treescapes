@@ -1,0 +1,46 @@
+$('.bannerItem').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:1,
+        }
+    }
+});
+$('.silder-number-two').owlCarousel({
+    margin:10,
+    nav:true,
+    dots:true,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    navText:["&#10229","&#10230"],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:1,
+        }
+    }
+})
+$( ".owl-prev").html('<i class="fa-solid fa-arrow-left"></i>');
+ $( ".owl-next").html('<i class="fa-solid fa-arrow-right"></i>');
