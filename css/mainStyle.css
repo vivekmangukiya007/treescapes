@@ -41,10 +41,8 @@ hr {
   margin-bottom: 40px !important;
 }
 
-.container {
-  max-width: 1140px !important;
-  margin: auto !important;
-  padding: 30px !important;
+.background-no-repeat {
+  background-repeat: no-repeat;
 }
 
 /* header section */
@@ -460,7 +458,7 @@ hr {
 /* ----services sider end----- */
 /* -------------------contact us section start----------------------------- */
 .contact-content {
-  padding: 60px 0 !important;
+  padding: 60px 105px !important;
   color: var(--menu-hover-color);
 }
 
@@ -513,11 +511,13 @@ hr {
   color: var(--menu-hover-color);
   background-color: #272727;
 }
+
 .footer-logo-section img {
   width: 60%;
   height: 200px;
   object-fit: contain;
 }
+
 .footer-section-title {
   color: var(--menu-hover-color);
   font-weight: bold;
@@ -604,53 +604,160 @@ hr {
 .footer-section-search-box ::placeholder {
   color: #6D6D6D;
 }
+
 /* footer-copy-right-section start */
-.footer-copy-right-section{
+.footer-copy-right-section {
   background-color: #121212;
   padding: 12px !important;
 }
-.copy-right{
+
+.copy-right {
   color: #B6B6B6;
 }
+
 /* footer-copy-right-section end*/
 /* -------------------FOOTER SECTION end----------------------------- */
 /* ----------------------index.html page css over--------------------- */
 /* ----------------------aboutus.html page css start------------------- */
-.about-us-img-section{
-  position: relative;
+/* about us title section start */
+.about-us-title-section {
+  padding: 200px 105px !important;
 }
-.about-us-img-section img{
-  width: 100%;
-}
-.about-us-title-section{
-  position: absolute;
-  top: 30%;
-  left: 0%;
-}
-.about-us-title{
-  font-size: 40px;
+
+.about-us-title {
+  font-size: 45px;
   text-transform: capitalize;
   font-weight: bold;
   color: var(--menu-hover-color);
 }
-.breadcrumb-item a{
+
+.breadcrumb-item a {
   color: var(--menu-hover-color) !important;
 }
-.breadcrumb-item{
+
+.breadcrumb-item {
+  font-weight: bold;
   color: var(--menu-hover-color) !important;
 }
-.breadcrumb-item.page-active{
+
+.breadcrumb-item.page-active {
   color: var(--hover-color) !important;
 }
+
+/* about us title section end */
+/* company profile section start */
+.company-profile-section {
+  padding-right: 100px !important;
+  padding-left: 200px !important;
+}
+
+.company-profile-sub-title {
+  font-size: 40px;
+  padding-top: 20px !important;
+}
+
+.company-profile-dis p {
+  padding-top: 20px !important;
+  font-size: 13px;
+  color: #8E8E8E;
+}
+
+.our-team-section {
+  padding-top: 120px !important;
+  width: 70%;
+}
+
+.our-team-title {
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 20px !important;
+}
+
+.our-team-dis {
+  font-size: 13px;
+  color: #8E8E8E;
+}
+
+.our-team-photo-section {
+  padding: 0 200px !important;
+}
+
+.our-team-photo-section img {
+  border-radius: 20px;
+  margin: auto;
+  width: 100%;
+}
+
+/* company profile section end */
 /* ----------------------aboutus.html page css end------------------- */
+/* ----------------------our-services.html page css start------------------- */
+/* our offer section start */
+.our-offer-section {
+  width: 78%;
+  padding-left: 200px !important;
+}
+
+.our-offer-title {
+  font-size: 40px;
+  padding-top: 100px !important;
+}
+
+.our-offer-sub-title {
+  font-size: 20px;
+  padding: 20px 0 !important;
+}
+
+.our-offer-dis {
+  padding-bottom: 90px !important;
+}
+
+.our-offer-dis p {
+  padding-top: 20px !important;
+  font-size: 14px;
+  color: #8E8E8E;
+}
+
+.our-offer-dis p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.our-offer-dis p a {
+  color: var(--hover-color);
+}
+
+.our-offer-dis p a:hover {
+  color: var(--btn-bg-color);
+  transition: 0.2s all;
+}
+
+/* our offer section end */
+/* ----------------------our-services.html page css end------------------- */
+/* ----------------------gallery.html page css start------------------- */
+/* What We Did section start */
+.we-did-section{
+  padding: 100px 105px!important;
+}
+.we-did-title{
+  text-transform: capitalize;
+  font-size: 40px;
+  text-align: center;  
+}
+.we-did-logo-section{
+  display: flex;
+}
+/* What We Did section end */
+/* ----------------------gallery.html page css end------------------- */
 /* ---------------media query start---------- */
 @media screen and (max-width:992px) {
   .inner-container {
     padding-left: 10px !important;
   }
-  .menu-contact{
+
+  .menu-contact {
     display: none;
   }
+
   .whatsapp-section {
     padding-top: 40px !important;
   }
@@ -676,27 +783,41 @@ hr {
     left: 40%;
     padding-left: 20px !important;
   }
-  
+
   .view-all-btn {
     left: 66%;
   }
-  
+
   .contact-content .contact-dis {
     width: 100%;
   }
-  .footer-section-title{
+
+  .footer-section-title {
     text-align: start;
   }
-  .footer-section-sub-titles li{
+
+  .footer-section-sub-titles li {
     padding: 10px 0 !important;
   }
+
   .footer-section-content {
-    padding: 20px!important;
+    padding: 20px !important;
     margin: 10px auto !important;
     width: 70%;
     border: 1px dashed white;
   }
+
   /* ----------------------index.html page media query over--------------------- */
+  .company-profile-section {
+    padding: 0 !important;
+    padding-left: 10px !important;
+  }
+
+  .our-team-photo-section {
+    padding: 0 10px !important;
+  }
+
+  /* ----------------------about-us.html page media query over--------------------- */
 }
 
 @media screen and (max-width:768px) {
@@ -704,14 +825,16 @@ hr {
     width: 100%;
   }
 }
+
 @media screen and (max-width:320px) {
-  .footer-section-search-box input{
+  .footer-section-search-box input {
     width: 180px;
-  } 
-  .footer-section-search-box{
+  }
+
+  .footer-section-search-box {
     margin: auto !important;
   }
-  
+
   /* ----------------------index.html page media query over--------------------- */
 }
 
