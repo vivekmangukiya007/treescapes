@@ -735,19 +735,151 @@ hr {
 /* ----------------------our-services.html page css end------------------- */
 /* ----------------------gallery.html page css start------------------- */
 /* What We Did section start */
-.we-did-section{
-  padding: 100px 105px!important;
+.we-did-section {
+  padding: 100px 105px !important;
 }
-.we-did-title{
+
+.we-did-title {
   text-transform: capitalize;
   font-size: 40px;
-  text-align: center;  
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px !important;
 }
-.we-did-logo-section{
+
+.we-did-logo-section {
   display: flex;
 }
+
+.we-did-logo-section .img-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hover-img-logo {
+  display: none;
+}
+
+.img-logo img:hover {
+  display: none;
+}
+
+.img-logo img:hover~.hover-img-logo {
+  display: block;
+}
+
+.img-logo-dis {
+  font-size: 22px;
+  color: #000;
+}
+
+.gallery-img-section {
+  padding-top: 40px !important;
+}
+
+.gallery-img {
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-img img {
+  width: 90%;
+  height: 90%;
+}
+
+.gallery-img-dis {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  width: 85%;
+  margin-left: 20px !important;
+  background-color: var(--menu-hover-color);
+  font-size: 35px;
+  color: #667B40;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 140px;
+  border-radius: 20px 0px 20px 20px;
+  padding: 0px 20px !important;
+}
+
+.gallery-img:hover .gallery-img-dis {
+  transition: 0.5s all;
+  color: var(--menu-hover-color);
+  background-color: var(--hover-color);
+}
+
+.gallery-img:hover img {
+  transform: scale(1.1);
+  transition: 0.5s all;
+}
+
 /* What We Did section end */
 /* ----------------------gallery.html page css end------------------- */
+/* ----------------------store.html page css start------------------- */
+.catagory-selector-section {
+  padding: 20px !important;
+  border-radius: 20px !important;
+  background-color: #F5F5F5;
+}
+
+.catagory-title {
+  padding-bottom: 10px !important;
+}
+
+.form-check {
+  padding-top: 5px !important;
+}
+
+.form-check-input {
+
+  margin-top: 5px !important;
+  margin-right: 10px !important;
+}
+
+.catagory-hr {
+  width: 100%;
+  margin: 20px 0 !important;
+}
+
+.catagory-price {
+  color: #8E8E8E;
+}
+
+/* update bootstrap start */
+.form-check-input:checked {
+  background-color: var(--hover-color) !important;
+  border-color: var(--hover-color) !important;
+}
+progress {
+  border-radius: 10px !important;
+  border: none;
+  height: 2px;
+}
+
+#file::-webkit-progress-bar {
+  background-color: rgb(211, 211, 211) !important;
+}
+
+#file::-webkit-progress-value {
+  background: var(--hover-color) !important;
+}
+
+option {
+  background: var(--menu-hover-color) !important;
+  color: #8E8E8E !important;
+}
+select {
+  border-radius: 20px !important;
+  border: none !important;
+  padding: 10px !important;
+  background: #8e8e8e !important;
+  color: #357b1d !important;
+}
+/* update bootstrap end */
+/* ----------------------store.html page css end------------------- */
 /* ---------------media query start---------- */
 @media screen and (max-width:992px) {
   .inner-container {
