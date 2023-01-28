@@ -145,6 +145,20 @@ hr {
   padding: 0 20px !important;
 }
 
+.menu-sos-icon i .badge{
+  left: 45%;
+  top: -52%;
+  width: 10px;
+  height: 10px;
+  background: none !important;
+}
+.menu-sos-icon i .badge span{
+  padding: 5px !important;
+  font-size: 10px;
+  background: var(--hover-color) !important;
+  border-radius: 100% !important;
+}
+
 .menu-sos-icon i:hover {
   color: var(--hover-color);
 }
