@@ -2227,10 +2227,6 @@ e-content {
     margin: 0 !important;
     padding: 0!important;
   }
-
-}
-@media screen and (max-width:320px) {
-
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next {
     padding: 4px 14px !important;
@@ -2254,6 +2250,10 @@ e-content {
     left: 39%;
 
   }
+}
+@media screen and (max-width:320px) {
+
+  
 
   .footer-section-search-box input {
     width: 180px;
