@@ -145,14 +145,15 @@ hr {
   padding: 0 20px !important;
 }
 
-.menu-sos-icon i .badge{
+.menu-sos-icon i .badge {
   left: 45%;
   top: -52%;
   width: 10px;
   height: 10px;
   background: none !important;
 }
-.menu-sos-icon i .badge span{
+
+.menu-sos-icon i .badge span {
   padding: 5px !important;
   font-size: 10px;
   background: var(--hover-color) !important;
@@ -165,41 +166,48 @@ hr {
 
 /* menu section OVER */
 /* custom small menu start */
-.sm-nav-bar-section{
+.sm-nav-bar-section {
   position: absolute;
   top: 85px;
   left: 0%;
   z-index: 49;
 }
+
 .sm-nav-bar-hidden-btn span {
   display: block;
   height: 3px;
   width: 24px;
-  background:var(--menu-hover-color);
+  background: var(--menu-hover-color);
   text-align: center;
   margin: 5px auto !important;
   background-image: none !important;
 }
-.sm-nav-bar-items{
+
+.sm-nav-bar-items {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-color:var(--menu-hover-color);
+  background-color: var(--menu-hover-color);
   text-align: center;
 }
-.sm-nav-bar-items li{
+
+.sm-nav-bar-items li {
   padding: 10px 0 !important;
 }
-.sm-nav-bar-items li a{
-  color:#b8b8b8;
+
+.sm-nav-bar-items li a {
+  color: #b8b8b8;
 }
-.sm-active{
+
+.sm-active {
   background-color: var(--hover-color);
 }
-.sm-active a{
+
+.sm-active a {
   color: var(--menu-hover-color) !important;
   font: 500;
 }
+
 /* custom small menu end */
 /* -----------banner section start------------------- */
 .bannerItem {
@@ -810,22 +818,25 @@ hr {
 
 /* company profile section end */
 /* ----------------------aboutus-inner-page.html page css start------------- */
-.about-us-inner-page-dis{
+.about-us-inner-page-dis {
   padding: 30px 0 !important;
   font-size: 18px;
   font: 500;
 }
-.about-us-inner-page-dis2{
-  color:#A1A1A1;
+
+.about-us-inner-page-dis2 {
+  color: #A1A1A1;
   font-size: 15px;
 }
-.about-us-inner-page-partner-section .partner-details-section{
+
+.about-us-inner-page-partner-section .partner-details-section {
   background: none !important;
   margin-bottom: 0px !important;
 }
-.about-us-inner-page-partner-section .partner-details-section img{
+
+.about-us-inner-page-partner-section .partner-details-section img {
   padding: 0px !important;
-  width:200px;
+  width: 200px;
   margin: 0 40px !important;
   object-fit: scale-down;
 }
@@ -1044,15 +1055,18 @@ hr {
 
 /* What We Did section end */
 /* ----------------------gallery-inner-oage.html page css start------------ */
-.gallery-inner-section-form .enquiry-section{
+.gallery-inner-section-form .enquiry-section {
   margin: 0 !important;
 }
-.gallery-inner-section-form .enquiry-section .form-label{
+
+.gallery-inner-section-form .enquiry-section .form-label {
   font-size: 14px;
 }
-.gallery-inner-page-title{
+
+.gallery-inner-page-title {
   font-size: 50px;
 }
+
 /* ----------------------gallery-inner-oage.html page css end------------ */
 /* ----------------------gallery.html page css end------------------- */
 /* ----------------------store.html page css start------------------- */
@@ -1464,37 +1478,43 @@ progress {
   height: 10px;
   margin: 0 !important;
 }
-.quantity-section .show-by-date-section{
+
+.quantity-section .show-by-date-section {
   padding: 20px 0 !important;
 }
+
 /* counter start */
-.quantity-section .counter{
+.quantity-section .counter {
   padding: 10px !important;
   display: inline-flex;
-  background-color:#f5f5f5;
+  background-color: #f5f5f5;
   border-radius: 30px;
   justify-content: space-between;
 }
+
 .quantity-section .counter button {
   border: none;
   background: none !important;
 }
-.quantity-section .counter button i{
+
+.quantity-section .counter button i {
   color: black;
   padding: 2px 10px !important;
-}  
+}
 
-.quantity-section .counter button:hover i{
+.quantity-section .counter button:hover i {
   color: var(--hover-color);
 }
 
-.quantity-section .counter span{
+.quantity-section .counter span {
   padding: 0 10px !important;
 }
+
 /* counter end */
-.quantity-section .show-by-date-section p{
+.quantity-section .show-by-date-section p {
   padding-right: 20px !important;
 }
+
 .right-side-dis {
   color: #8E8E8E;
 }
@@ -1535,10 +1555,12 @@ progress {
 .add-to-cart button:hover {
   background-color: var(--hover-color);
 }
+
 .add-to-wishlist i,
-.add-to-cart i{
+.add-to-cart i {
   padding: 0 10px !important;
 }
+
 .add-to-wishlist button {
   width: 100%;
   border: none;
@@ -1559,14 +1581,17 @@ progress {
   padding: 20px 0 !important;
   font-size: 14px;
 }
-.share-products i{
+
+.share-products i {
   padding: 0 10px !important;
   color: #6d6d6d;
   transition: 0.5s color;
 }
-.share-products i:hover{
+
+.share-products i:hover {
   color: #000;
 }
+
 .store-slider-section {
   background-color: #F5F5F5;
   width: 100%;
@@ -1642,9 +1667,7 @@ progress {
   height: 100%;
 }
 
-.contact-right-sid
-
-e-content {
+.contact-right-sid e-content {
   padding: 50px 0 !important;
 }
 
@@ -2111,25 +2134,29 @@ e-content {
 
   /* contact us section media qurey end */
   /* GALLERY-INNER-PAGE-SECTION-QUERY-START */
-  .gallery-inner-page-title{
+  .gallery-inner-page-title {
     font-size: 30px;
   }
+
   /* GALLERY-INNER-PAGE-SECTION-QUERY-END */
 }
 
 @media screen and (max-width:575px) {
-  .copy-right{
+  .copy-right {
     font-size: 14px !important;
     padding: 13px 0 !important;
     text-align: center;
   }
-  .payment-method{
+
+  .payment-method {
     padding-bottom: 40px !important;
   }
+
   /* ----------------------store.html page media query start--------------------- */
   .store-inner-page-right-side-content .breadcrumb-item {
     font-size: 12px;
   }
+
   .url-hash-silder-section .url-hash-silder .owl-nav {
     left: 0%;
     bottom: -7%;
@@ -2143,22 +2170,28 @@ e-content {
   .url-hash-silder-section .url-hash-silder .owl-nav .owl-next {
     right: 1%;
   }
-  .store-inner-page-right-side-content{
+
+  .store-inner-page-right-side-content {
     padding: 0 20px !important;
   }
-  .right-side-title h1{
+
+  .right-side-title h1 {
     font-size: 23px;
     padding: 10px 0 !important;
   }
-  .store-inner-page-right-side-content .price strike{
+
+  .store-inner-page-right-side-content .price strike {
     font-size: 14px;
   }
-  .store-inner-page-right-side-content .price p{
+
+  .store-inner-page-right-side-content .price p {
     font-size: 16px;
   }
-  .right-side-dis p{
-    font-size: 14px ;
+
+  .right-side-dis p {
+    font-size: 14px;
   }
+
   /* ----------------------store.html page media query over--------------------- */
   .banner-content .banner-dis h2 {
     font-size: 20px;
@@ -2210,23 +2243,26 @@ e-content {
     left: 12%;
     width: 76%;
   }
+
   /* GALLERY-INNER-PAGE-SECTION-QUERY-START */
-  .gallery-inner-page-title-section{
+  .gallery-inner-page-title-section {
     display: block !important;
   }
-  .gallery-inner-page-title{
+
+  .gallery-inner-page-title {
     font-size: 24px;
     padding: 10px 0 !important;
   }
+
   /* GALLERY-INNER-PAGE-SECTION-QUERY-END */
 }
 
 @media screen and (max-width:468px) {
-  .enquiry-section
-  {
+  .enquiry-section {
     margin: 0 !important;
-    padding: 0!important;
+    padding: 0 !important;
   }
+
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next {
     padding: 4px 14px !important;
@@ -2250,20 +2286,18 @@ e-content {
     left: 39%;
 
   }
-}
-@media screen and (max-width:320px) {
-
-  
-
   .footer-section-search-box input {
-    width: 180px;
+    width: 160px;
   }
 
   .footer-section-search-box {
     margin: auto !important;
   }
 
-  /* ----------------------index.html page media query over--------------------- */
+}
+
+@media screen and (max-width:320px) {
+
   /* ----------------------store.html page media query start--------------------- */
   .url-hash-silder-section .url-hash-silder .owl-nav {
     left: 0%;
@@ -2278,7 +2312,7 @@ e-content {
   .url-hash-silder-section .url-hash-silder .owl-nav .owl-next {
     right: 7%;
   }
-  
+
   /* ----------------------store.html page media query over--------------------- */
 }
 
