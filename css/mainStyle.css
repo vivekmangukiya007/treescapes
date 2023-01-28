@@ -2221,6 +2221,14 @@ e-content {
   /* GALLERY-INNER-PAGE-SECTION-QUERY-END */
 }
 
+@media screen and (max-width:468px) {
+  .enquiry-section
+  {
+    margin: 0 !important;
+    padding: 0!important;
+  }
+
+}
 @media screen and (max-width:320px) {
 
   .owl-carousel .owl-nav button.owl-prev,
@@ -2270,11 +2278,7 @@ e-content {
   .url-hash-silder-section .url-hash-silder .owl-nav .owl-next {
     right: 7%;
   }
-  .enquiry-section
-  {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
+  
   /* ----------------------store.html page media query over--------------------- */
 }
 
