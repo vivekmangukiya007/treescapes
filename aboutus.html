@@ -23,32 +23,48 @@
   <!-- navbar section -->
   <header>
     <div class=" navigation-bar">
-      <div class="logo-section menu-bg">
-        <img src="images/logo.png" class="logo" alt="">
-      </div>
-      <nav class="d-flex  navbar-expand-lg menu-bg">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="position order-1 nav-logo"></div>
+      <nav class="d-flex order-3 order-xl-2  main-menu  navbar-expand-xl menu-bg">
+        <button class="navbar-toggler sm-nav-bar-hidden-btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="d-flex  px-5 menu-bar">
-            <li><a href="index.html">home</a></li>
-            <li><a href="aboutus.html" class="active">about us</a></li>
+            <li><a href="index.html" >home</a></li>
+            <li><a href="aboutus.html"class="active" >about us</a></li>
             <li><a href="our-service.html">our services</a></li>
             <li><a href="gallery.html">gallery</a></li>
             <li><a href="store.html">store</a></li>
           </ul>
         </div>
       </nav>
-      <div class="d-flex">
-        <div class="menu-contact">contact us</div>
-        <div class="menu-sos-icon ">
+      <div class="d-flex order-2 order-xl-3">
+        <div class="menu-contact"><a href="contactus.html">contact us</a></div>
+        <div class="menu-sos-icon">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-regular fa-heart"></i>
-          <i class="fa-regular fa-user"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-regular d-sm-block d-none fa-heart"></i>
+          <i class="fa-regular d-sm-block d-none fa-user"></i>
+          <i class="fa-solid d-sm-block d-none fa-cart-shopping"></i>
         </div>
+      </div>
+    </div>
+    <div class="collapse" id="collapseExample">
+      <div class=" sm-nav-bar-section" id="sm-menu">
+        <ul class="sm-nav-bar-items">
+          <li ><a href="index.html">home</a></li>
+          <li class="sm-active"><a href="aboutus.html">about us</a></li>
+          <li><a href="our-service.html">our services</a></li>
+          <li><a href="gallery.html">gallery</a></li>
+          <li><a href="store.html">store</a></li>
+          <li><a href="contactus.html">contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="logo-position">
+      <div class="logo-section menu-bg">
+        <img src="images/logo.png" class="logo" alt="">
       </div>
     </div>
   </header>
@@ -92,7 +108,7 @@
             <p>Our workers are constantly upgrading themselves with the latest skills and knowledge to provide better
               services. Our managers and supervisors who have many years of experience will answer any queries and
               provide support whenever needed.</p>
-            <button> <a href="#">Check Our Awards & Accreditations</a></button>
+            <button> <a href="aboutus-inner-page.html">Check Our Awards & Accreditations</a></button>
           </div>
         </div>
       </div>
@@ -201,6 +217,13 @@
       <div class="col-lg-6 col-12 d-flex justify-content-md-end justify-content-center  payment-method">
         <img src="images/payment-method.png" alt="">
       </div>
+    </div>
+  </section>
+  <section class="footer-sm-icon">
+    <div class="menu-sos-icon justify-content-around">
+      <i class="fa-regular d-sm-none d-block fa-user"></i>
+      <i class="fa-regular d-sm-none d-block fa-heart heart-icon"></i>
+      <i class="fa-solid d-sm-none d-block fa-cart-shopping"></i>
     </div>
   </section>
   <!-- --------------- FOOTER section end -------------------- -->

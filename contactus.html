@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- icon file -->
   <link rel="stylesheet" href="css/all.min.css" />
+  <!--===== Boxicons CSS =====-->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <!-- owl carousel css file -->
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -35,14 +37,14 @@
             <li><a href="index.html">home</a></li>
             <li><a href="aboutus.html" >about us</a></li>
             <li><a href="our-service.html">our services</a></li>
-            <li><a href="gallery.html" class="active">gallery</a></li>
+            <li><a href="gallery.html">gallery</a></li>
             <li><a href="store.html">store</a></li>
             <li><a href="contactus.html">contact</a></li>
           </ul>
         </div>
       </nav>
       <div class="d-flex order-2 order-xl-3">
-        <div class="menu-contact"><a href="contactus.html">contact us</a></div>
+        <div class="menu-contact active-contact"><a href="contactus.html">contact us</a></div>
         <div class="menu-sos-icon">
           <i class="fa-solid fa-magnifying-glass"></i>
           <i class="fa-regular d-sm-block d-none fa-heart"></i>
@@ -55,9 +57,9 @@
       <div class=" sm-nav-bar-section" id="sm-menu">
         <ul class="sm-nav-bar-items">
           <li ><a href="index.html">home</a></li>
-          <li ><a href="aboutus.html">about us</a></li>
+          <li class="sm-active"><a href="aboutus.html">about us</a></li>
           <li><a href="our-service.html">our services</a></li>
-          <li class="sm-active"><a href="gallery.html">gallery</a></li>
+          <li><a href="gallery.html">gallery</a></li>
           <li><a href="store.html">store</a></li>
         </ul>
       </div>
@@ -69,113 +71,171 @@
     </div>
   </header>
   <!-- navigation section over -->
-  <!-- gallery section start -->
+
+  <!-- about us section start -->
   <section>
-    <div class="about-us-img-section" style="background-image: url(images/banner-gallery.jpg)">
+    <div class="about-us-img-section" style="background-image: url(images/banner-contact.jpg)">
       <div class="inner-container about-us-title-section">
-        <div class="about-us-title">gallery</div>
+        <div class="about-us-title">contact us</div>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item page-active" aria-current="page">Gallery</li>
+            <li class="breadcrumb-item page-active" aria-current="page">contact us</li>
           </ol>
         </nav>
       </div>
     </div>
   </section>
-  <!-- gallery section end -->
-  <!-- What We Did section start -->
-  <section class="we-did-section">
-    <div class="we-did-title">what we did</div>
-    <div class="row we-did-logo-section">
-      <div class="col-lg-3 col-sm-6 col-12  img-logo">
-        <a href="" class="text-center img-logo px-4">
-          <img src="images/gallery-icon1.png" alt="">
-          <img src="images/gallery-icon1-ov.png" class="hover-img-logo" alt="">
-          <div class="img-logo-dis">Landscape Maintenance in Residential Buildings</div>
-        </a>
+  <!-- about us section end -->
+  <!------------------ company profile section start --------------------->
+  <section>
+    <div class="row g-0">
+      <div class="col-lg-6 col-md-12 contact-left-side-content">
+        <div>
+          <img src="images/contact1.jpg" alt="">
+        </div>
       </div>
-      <div class="col-lg-3 col-sm-6 col-12  img-logo">
-        <a href="" class="text-center img-logo px-4">
-          <img src="images/gallery-icon2.png" alt="">
-          <img src="images/gallery-icon2-ov.png" class="hover-img-logo" alt="">
-          <div class="img-logo-dis">Landscape Maintenance in Commercial Buildings</div>
-        </a>
+      <div class="col-lg-6 col-12 padding-top-bottom" >
+        <div class="welcome-section contact-right-side-content">
+          <div>
+            <h4 class="welcome-title contact-title">get in touch with us</h4>
+          </div>
+          <div class="company-profile-sub-title contact-sub-title">
+            <p>
+              Let’s beautify your landscape together!
+            </p>
+          </div>
+          <div class="company-profile-dis">
+            <div class="contact-right-side-details">
+              <div class="contact-detail">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <div>
+                  <span class="contact-detail-title">location</span><br>
+                  <span class="contact-detail-dis">Block 10 Jalan Kukoh, #01-53 Singapore 162010</span>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                  <span class="contact-detail-title">CONTACT NUMBERS</span><br>
+                  <span class="contact-detail-dis"><b>Tel:</b> +65 6286 1872</span><br>
+                  <span class="contact-detail-dis"><b>Fax:</b> +65 6286 2463</span>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <div>
+                  <span class="contact-detail-title">E-MAIL ADDRESS</span><br>
+                  <span class="contact-detail-dis"><a href="">treescapes@singnet.com.sg</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3 col-sm-6 col-12  img-logo">
-        <a href="" class="text-center img-logo px-4">
-          <img src="images/gallery-icon3.png" alt="">
-          <img src="images/gallery-icon3-ov.png" class="hover-img-logo" alt="">
-          <div class="img-logo-dis">Rental of Indoor Potted Plants</div>
-        </a>
-      </div>
-      <div class="col-lg-3 col-sm-6 col-12  img-logo">
-        <a href="" class="text-center img-logo px-4">
-          <img src="images/gallery-icon4.png" alt="">
-          <img src="images/gallery-icon4-ov.png" class="hover-img-logo" alt="">
-          <div class="img-logo-dis">Festive Plants Display</div>
-        </a>
-      </div>
-    </div>
-    <div class="row gallery-img-section">
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-        <div class="gallery-content">
-          <img src="images/gallery-details1.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis"> GSK Asia House</div>
-      </a>
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-
-        <div class="gallery-content">
-          <img src="images/gallery-details2.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis">Parkview Square</div>
-      </a>
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-
-        <div class="gallery-content">
-          <img src="images/gallery-details3.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis">The Bencoolen</div>
-      </a>
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-
-        <div class="gallery-content">
-          <img src="images/gallery-details4.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis">Valley Park</div>
-      </a>
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-
-        <div class="gallery-content">
-          <img src="images/gallery-details5.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis"> XCL World Academy</div>
-      </a>
-      <a class="col-lg-4 col-sm-6 col-12 gallery-img" href="gallery-inner-page.html">
-
-        <div class="gallery-content">
-          <img src="images/gallery-details6.jpg" alt="">
-        </div>
-        <div class="gallery-img-dis"> Xilink Asia Pacific</div>
-      </a>
     </div>
   </section>
-
-
-  <!-- What We Did section end -->
+  <!------------------contact details section end --------------------->
+  <!-- map start -->
+  <div class="mapouter pt-5">
+    <div class="gmap_canvas">
+      <iframe width="100%" height="100%" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=singapure&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: right;
+          height: 100vh;
+          width: 100%;
+        }
+      </style>
+      <style>
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 100vh;
+          width: 100%;
+        }
+      </style>
+    </div>
+  </div>
+  <!-- map end -->
+  <!-- ----------------------------Send Us An Enquiry start------------------------- -->
+  <section class="padding-top pt-5">
+    <div class="row g-0">
+      <div style="background-image: url(images/home3.jpg)">
+        <div class="col-12 col-md-6 px-5">
+          <div class="enquiry-section">
+            <div class="enquiry-title">
+              <h1>Send Us An Enquiry</h1>
+            </div>
+            <div class="enquiry-dis">
+              <p>If you require any landscape service, give us a call, email or leave a message in our enquiry form! We
+                will get back to you shortly.</p>
+            </div>
+            <div>
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" class="form-control" placeholder="Your Full Name">
+                </div>
+                <div class="d-flex">
+                  <div class="mb-3 w-50 pe-3">
+                    <label class="form-label ">E-mail address</label>
+                    <input type="email" class="form-control" placeholder="e.g.hello@gmail.com">
+                  </div>
+                  <div class="mb-3 w-50 ps-3">
+                    <label class="form-label">contact number</label>
+                    <input type="text" class="form-control" placeholder="e.g.+65 1234 5678">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Company/Organisation</label>
+                  <input type="text" class="form-control" placeholder="e.g. Treescapes Pte Ltd">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Enquiry Purpose</label>
+                  <div class="select-menu">
+                    <div class="select-btn">
+                        <span class="sBtn-text">Please Select</span>
+                        <i class="bx bx-chevron-down"></i>
+                    </div>
+            
+                    <ul class="options ">
+                        <li class="option option1">
+                            <span class="option-text">Please Select</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Select</span>
+                        </li>
+                        <li class="option">
+                            <span class="option-text">Select</span>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Comments/Feedback</label>
+                  <textarea class="form-control" style="height: 150px; border-radius: 10px;" placeholder="Tyep Your Message Here..."  name="" id="" cols="10" rows="10"></textarea>
+                </div>
+                <div class="mb-3 form-btn-section">
+                  <button><a href="thank-you.html">Submit</a></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------------------Send Us An Enquiry end------------------------- -->
   <!-- --------------- CONTACT US section start -------------------- -->
   <section class="padding-top">
     <div class="row g-0">
       <div style="background-image: url(images/home3.jpg)" class="conatiner">
-        <div class="contact-content container">
-          <div class="contact-title">CONTACT US</div>
-          <div class="contact-dis">Still Unsure With What We Can Give You?
-            Talk To Us.</div>
-          <button><a href="contactus.html" target="_blank">Contact Us</a></button>
-        </div>
+
       </div>
-    </div>
   </section>
   <!-- --------------- CONTACT US section end -------------------- -->
   <!-- --------------- FOOTER section start -------------------- -->
@@ -204,11 +264,11 @@
         <div class="footer-section-title">Sitemap</div>
         <ul class="footer-section-sub-titles d-flex  justify-content-between">
           <li class="col-6"><a href="index.html">Home</a></li>
-          <li class="col-6"><a href="gallery.html" class="footer-active">Gallery</a></li>
+          <li class="col-6"><a href="gallery.html">Gallery</a></li>
           <li class="col-6"><a href="aboutus.html">About Us</a></li>
           <li class="col-6"><a href="store.html">Store</a></li>
           <li class="col-6"><a href="ourservices.html">Our Services</a></li>
-          <li class="col-6"><a href="contactus.html">Contact Us</a></li>
+          <li class="col-6"><a href="contactus.html" class="footer-active">Contact Us</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-12 d-flex justify-content-start justify-content-md-center footer-section-content">

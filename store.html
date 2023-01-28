@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- icon file -->
     <link rel="stylesheet" href="css/all.min.css" />
+    <!--===== Boxicons CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- owl carousel css file -->
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -23,36 +25,51 @@
     <!-- navbar section -->
     <header>
         <div class=" navigation-bar">
-            <div class="logo-section menu-bg">
-                <img src="images/logo.png" class="logo" alt="">
+          <div class="position order-1 nav-logo"></div>
+          <nav class="d-flex order-3 order-xl-2  main-menu  navbar-expand-xl menu-bg">
+            <button class="navbar-toggler sm-nav-bar-hidden-btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="d-flex  px-5 menu-bar">
+                <li><a href="index.html" >home</a></li>
+                <li><a href="aboutus.html" >about us</a></li>
+                <li><a href="our-service.html" >our services</a></li>
+                <li><a href="gallery.html" >gallery</a></li>
+                <li><a href="store.html" class="active">store</a></li>
+                <li><a href="contactus.html">contact</a></li>
+              </ul>
             </div>
-            <nav class="d-flex  navbar-expand-lg menu-bg">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="d-flex  px-5 menu-bar">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="aboutus.html">about us</a></li>
-                        <li><a href="our-service.html">our services</a></li>
-                        <li><a href="gallery.html">gallery</a></li>
-                        <li><a href="store.html" class="active">store</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="d-flex">
-                <div class="menu-contact">contact us</div>
-                <div class="menu-sos-icon ">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
+          </nav>
+          <div class="d-flex order-2 order-xl-3">
+            <div class="menu-contact"><a href="contactus.html">contact us</a></div>
+            <div class="menu-sos-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-regular d-sm-block d-none fa-heart"></i>
+              <i class="fa-regular d-sm-block d-none fa-user"></i>
+              <i class="fa-solid d-sm-block d-none fa-cart-shopping"></i>
             </div>
+          </div>
         </div>
-    </header>
+        <div class="collapse" id="collapseExample">
+          <div class=" sm-nav-bar-section" id="sm-menu">
+            <ul class="sm-nav-bar-items">
+              <li ><a href="index.html">home</a></li>
+              <li ><a href="aboutus.html">about us</a></li>
+              <li ><a href="our-service.html">our services</a></li>
+              <li ><a href="gallery.html">gallery</a></li>
+              <li class="sm-active"><a href="store.html">store</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="logo-position">
+          <div class="logo-section menu-bg">
+            <img src="images/logo.png" class="logo" alt="">
+          </div>
+        </div>
+      </header>
     <!-- navigation section over -->
     <!-- store section start -->
     <section>
@@ -71,7 +88,7 @@
     <!-- store section end -->
     <!-- catagory section start -->
     <section class="inner-container row padding-top-bottom">
-        <div class="col-lg-4 col-12 pe-5">
+        <div class="col-lg-4 col-12 pe-0 pe-sm-5">
             <div class="d-flex justify-content-end">
                 <div class="catagory-selector-section">
                     <h3 class="catagory-title">Categories</h3>
@@ -95,20 +112,291 @@
             </div>
         </div>
         <div class="col-lg-6 col-12">
-            <div class="d-flex justify-content-between">
-                <div class="d-flex align-items-center col-12 col-lg-6">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="d-flex show-by-date-section align-items-center col-12 col-sm-6">
                     <p> Sort by </p>
-                    <div>
-                        <select class="sort-by-selection" name="" id="">
-                            <option value="Position">Position</option>
-                            <option value="Date Added">Date Added</option>
-                            <option value="Date Added">Date Added</option>
-                            <option value="Date Added">Date Added</option>
-                        </select>
+                    <div class="select-menu">
+                        <div class="select-btn">
+                            <span class="sBtn-text">Position</span>
+                            <i class="bx bx-chevron-down"></i>
+                        </div>
+                
+                        <ul class="options ">
+                            <li class="option option1">
+                                <span class="option-text">Position</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">Date Added</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">Date Added</span>
+                            </li>
+                            <li class="option option2">
+                                <span class="option-text">Date Added</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="d-flex align-items-center col-12 col-lg-6 justify-content-end">2</div>
+                <div class="d-flex product-number-section align-items-center col-12 col-sm-6 justify-content-end">
+                    <p> Showing</p>
+                    <div class="select-menu numberMenu">
+                        <div class="select-btn">
+                            <span class="sBtn-text">9</span>
+                            <i class="bx bx-chevron-down"></i>
+                        </div>
+                
+                        <ul class="options ">
+                            <li class="option option1">
+                                <span class="option-text">9</span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">18 </span>
+                            </li>
+                            <li class="option">
+                                <span class="option-text">27 </span>
+                            </li>
+                            <li class="option option2">
+                                <span class="option-text">36</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>of 28 Products</p>
+                </div>
             </div>
+            <div class="product-container-section d-flex">
+                <!-- 1 -->
+
+                <div class="products col-md-4 col-12 product-hover">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge">NEW</span>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product1.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <strike>SGD150.00</strike>
+                                <p>SGD120.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 2 -->
+
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge badge-red">SALE</span>
+                                </div>
+                                <i class="fa-solid fa-heart wishlist-red"></i>
+                            </div>
+                            <img src="images/product2.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green">SGD120.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 3 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge badge-black">out of stock</span>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product3.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green"> SGD120.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 4 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                </div>
+                                <i class="fa-solid fa-heart wishlist-red"></i>
+                            </div>
+                            <img src="images/product4.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green"> SGD20.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 5 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge badge-black">out of stock</span>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product5.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green"> SGD30.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 6 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product6.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <strike>SGD150.00</strike>
+                                <p class="price-red"> SGD120.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 7 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge badge-black">out of stock</span>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product3.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green"> SGD30.00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 8 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge">new</span>
+                                </div>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <img src="images/product1.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <strike>SGD150.00</strike>
+                                <p class="price-red"> SGD120.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- 9 -->
+                <div class="products col-md-4 col-12">
+                    <a href="store-inner-page.html">
+                        <div class="product-img">
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <span class="badge badge-red">SALE</span>
+                                </div>
+                                <i class="fa-solid fa-heart wishlist-red"></i>
+                            </div>
+                            <img src="images/product2.jpg" alt="">
+                        </div>
+                        <div class="product-dis">
+                            <div class="product-name">Calathea Insignis</div>
+                            <div class="price d-flex align-items-center">
+                                <p class="price-green"> SGD20.00</p>
+                            </div>
+                        </div>
+                        <div class="view-cart-section">
+                            <div class="view-cart">View Cart</div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <!-- under-line -->
+            <hr class="store-underline">
+            <!-- pagination -->
+            <nav>
+                <ul class="pagination d-flex justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            &laquo;
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link " href="#">&#9001</a></li>
+                    <li class="page-item"><a class="page-link active-page" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">&#9002</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            &raquo;
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </section>
     <!-- catagory section end -->
@@ -197,6 +485,13 @@
             <div class="col-lg-6 col-12 d-flex justify-content-md-end justify-content-center  payment-method">
                 <img src="images/payment-method.png" alt="">
             </div>
+        </div>
+    </section>
+    <section class="footer-sm-icon">
+        <div class="menu-sos-icon justify-content-around">
+            <i class="fa-regular d-sm-none d-block fa-user"></i>
+            <i class="fa-regular d-sm-none d-block fa-heart heart-icon"></i>
+            <i class="fa-solid d-sm-none d-block fa-cart-shopping"></i>
         </div>
     </section>
     <!-- --------------- FOOTER section end -------------------- -->
