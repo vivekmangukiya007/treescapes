@@ -1642,7 +1642,9 @@ progress {
   height: 100%;
 }
 
-.contact-right-side-content {
+.contact-right-sid
+
+e-content {
   padding: 50px 0 !important;
 }
 
@@ -2268,7 +2270,11 @@ progress {
   .url-hash-silder-section .url-hash-silder .owl-nav .owl-next {
     right: 7%;
   }
-
+  .enquiry-section
+  {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   /* ----------------------store.html page media query over--------------------- */
 }
 
