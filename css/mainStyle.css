@@ -2387,13 +2387,13 @@ progress {
 
   /* ----------------------store.html page media query over--------------------- */
   .stoer-inner-silder-two-section .store-inner-silder-two .ow-item{
-    width: 76%;
+    width: 80%;
   }
   .stoer-inner-silder-two-section .store-inner-silder-two .owl-nav{
     left: 0px !important;
   } 
   .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-prev{
-    left:-2%;
+    left: -1%;
   }
   .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-next{
     right:-1%;
