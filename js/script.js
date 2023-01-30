@@ -74,9 +74,9 @@ $(document).ready(function () {
     })
     $('.store-inner-silder-two').owlCarousel({
         loop: true,
-        autoplay: true,
-        autoplayTimeout: 2500,
-        autoplayHoverPause: true,
+        autoplay: false,
+        // autoplayTimeout: 2500,
+        // autoplayHoverPause: true,
         nav: true,
         dots: false,
         navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
@@ -85,10 +85,13 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
-                items: 4
+                items: 2
             },
             1000: {
-                items: 4
+                items: 2
+            },
+            1240:{
+                items:4
             }
         }
     })
