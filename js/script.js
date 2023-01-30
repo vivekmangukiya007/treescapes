@@ -20,7 +20,7 @@ $(document).ready(function () {
             }
         }
     });
-    $('.silder-number-two').owlCarousel({
+    $('.slider-number-two').owlCarousel({
         nav: true,
         dots: true,
         loop: true,
@@ -82,7 +82,7 @@ $(document).ready(function () {
         navText: ['<i class="fa-solid fa-arrow-left"></i>', '<i class="fa-solid fa-arrow-right"></i>'],
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
             600: {
                 items: 4

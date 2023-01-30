@@ -105,6 +105,14 @@ hr {
   transition: 0.5s all;
 }
 
+/* .menu-bar li a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+:hover:after { transform: scaleX(1); } */
 .active {
   color: var(--menu-hover-color) !important;
   border-bottom: 2px var(--menu-hover-color) solid;
@@ -1628,7 +1636,7 @@ progress {
 
 .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-prev i,
 .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-next i {
-  padding: 4px !important;
+  padding: 0px !important;
 }
 
 .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-prev:hover,
@@ -1853,7 +1861,7 @@ progress {
 
   .gallery-img-dis {
     font-size: 25px;
-    right: 4%;
+    right: 6%;
   }
 }
 
@@ -2142,6 +2150,10 @@ progress {
 }
 
 @media screen and (max-width:575px) {
+  .about-us-title {
+    font-size: 32px;
+  }
+
   .copy-right {
     font-size: 14px !important;
     padding: 13px 0 !important;
@@ -2260,7 +2272,7 @@ progress {
 @media screen and (max-width:468px) {
   .enquiry-section {
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 0 18px !important;
   }
 
   .owl-carousel .owl-nav button.owl-prev,
@@ -2270,14 +2282,14 @@ progress {
 
   .owl-nav {
     position: absolute;
-    left: -56%;
+    left: -39%;
     bottom: -2%;
   }
 
   .owl-dots {
     position: absolute;
     bottom: 0%;
-    left: 33%;
+    left: 40%;
     padding-left: 20px !important;
   }
 
@@ -2286,6 +2298,7 @@ progress {
     left: 39%;
 
   }
+
   .footer-section-search-box input {
     width: 160px;
   }
@@ -2293,10 +2306,6 @@ progress {
   .footer-section-search-box {
     margin: auto !important;
   }
-
-}
-
-@media screen and (max-width:320px) {
 
   /* ----------------------store.html page media query start--------------------- */
   .url-hash-silder-section .url-hash-silder .owl-nav {
