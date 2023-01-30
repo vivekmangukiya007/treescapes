@@ -2386,19 +2386,22 @@ progress {
   }
 
   /* ----------------------store.html page media query over--------------------- */
+  .stoer-inner-silder-two-section .store-inner-silder-two .ow-item{
+    width: 76%;
+  }
   .stoer-inner-silder-two-section .store-inner-silder-two .owl-nav{
     left: 0px !important;
   } 
   .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-prev{
-    left:13%;
+    left:-2%;
   }
   .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-next{
-    right:10%;
+    right:-1%;
   }
 }
 /* 6,12 */
 @media screen and (max-width:320px) {
-  n .store-inner-silder-two .owl-nav .owl-prev{
+  .store-inner-silder-two .owl-nav .owl-prev{
     left:6%;
   }
   .store-inner-silder-two-section .store-inner-silder-two .owl-nav .owl-next{
