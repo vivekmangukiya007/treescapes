@@ -44,7 +44,7 @@
       <div class="d-flex order-2 order-xl-3">
         <div class="menu-contact"><a href="contactus.html">contact us</a></div>
         <div class="menu-sos-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
           <i class="fa-regular d-sm-block d-none fa-heart"></i>
           <i class="fa-regular d-sm-block d-none fa-user"></i>
           <i class="position-relative fa-solid d-sm-block d-none fa-cart-shopping">
@@ -71,6 +71,21 @@
       </div>
     </div>
   </header>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div></div>
+        <i class="fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+      </div>
+      <div class="modal-body">
+        <div class="search-bg" id="closeBtn">
+          <div class="search-btn">
+            <input type="text" placeholder="Search keyword" class="form-control ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- navigation section over -->
   <!-- about us section start -->
   <section>

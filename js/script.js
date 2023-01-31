@@ -1,3 +1,9 @@
+function openSearch() {
+    document.getElementById('closeBtn').style.display='block';     
+}
+function closeSearchBar() {
+    document.getElementById('closeBtn').style.display='none';    
+}
 $(document).ready(function () {
     $('.bannerItem').owlCarousel({
         loop: true,
