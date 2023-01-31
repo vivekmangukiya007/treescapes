@@ -1,8 +1,12 @@
+var preloader = document.getElementById("loading");
+function myFunction() {
+    preloader.style.display = 'none';
+};
 function openSearch() {
-    document.getElementById('closeBtn').style.display='block';     
+    document.getElementById('closeBtn').style.display = 'block';
 }
 function closeSearchBar() {
-    document.getElementById('closeBtn').style.display='none';    
+    document.getElementById('closeBtn').style.display = 'none';
 }
 $(document).ready(function () {
     $('.bannerItem').owlCarousel({
@@ -96,8 +100,8 @@ $(document).ready(function () {
             1000: {
                 items: 2
             },
-            1240:{
-                items:4
+            1240: {
+                items: 4
             }
         }
     })
@@ -128,11 +132,11 @@ options.forEach(option => {
 // custom select bar end
 
 //initialising a variable name data
-  
+
 var data = 0;
-  
+
 document.getElementById("counting").innerText = data;
-  
+
 function increment() {
     data = data + 1;
     document.getElementById("counting").innerText = data;

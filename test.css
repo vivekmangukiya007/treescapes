@@ -1,0 +1,10 @@
+#loading{
+	/* position: fixed; */
+	width: 100%;
+	height: 100vh;
+	background: #000
+	url('https://thumbs.gfycat.com/ZealousFineHochstettersfrog-size_restricted.gif')
+	 no-repeat center center;	
+     background-size: 30%;
+	z-index: 99999;
+}
