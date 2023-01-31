@@ -1,5 +1,36 @@
+//  top button start
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.opacity='0.8';
+    }
+    else if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+        mybutton.style.opacity = '0.7';
+    }
+    else if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        mybutton.style.opacity = '0.4';
+    }   
+    else if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        mybutton.style.opacity = '0.2';
+    } 
+    else {
+        mybutton.style.opacity = '0';
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+//  top button end
+
+
 var preloader = document.getElementById("loading");
 function myFunction() {
+    document.body.style.position = 'relative';
     preloader.style.display = 'none';
 };
 function openSearch() {

@@ -7,16 +7,6 @@
 a {
   text-decoration: none;
 }
-#loading{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	background: #fff
-	url('https://i.pinimg.com/originals/dd/67/4f/dd674f89d713bb2645a3292510219998.gif')
-	 no-repeat center center;	
-     background-size: 30%;
-	z-index: 9999;
-}
 ul,
 ol {
   list-style: none;
@@ -52,6 +42,39 @@ hr {
 
 .background-no-repeat {
   background-repeat: no-repeat;
+}
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff
+  url('https://i.pinimg.com/originals/dd/67/4f/dd674f89d713bb2645a3292510219998.gif')
+   no-repeat center center;	
+     background-size: 30%;
+  z-index: 9999;
+}
+.bottom-btn{
+  position:fixed;
+  bottom: 0%;
+  right: 0%;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+  z-index: 16;
+  opacity: 0.7;
+  background-color: var(--btn-bg-color);
+  border-radius: 100%;
+  height: 40px ;
+  width: 40px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-btn i{
+  color: var(--menu-hover-color);
+}
+.bottom-btn:hover{
+  opacity: 1 !important;
+  transition: 0.2s all;
 }
 
 /* header section */
@@ -553,6 +576,7 @@ hr {
 .owl-carousel .owl-nav button.owl-prev:hover,
 .owl-carousel .owl-nav button.owl-next:hover {
   background-color: var(--menu-hover-color);
+  color:#000;
 }
 
 .owl-dots {
